@@ -26,4 +26,4 @@ def get_url():
 
 if __name__ == "__main__":
     bottle.debug(True)
-    run(host='localhost', port=8080)
+    run(host='localhost', port=1142)
