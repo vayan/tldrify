@@ -13,8 +13,8 @@ apikey = sys.argv[1]
 def get_texteaser(url):
     g = Goose()
     article = g.extract(url=url)
-    response = unirest.post("http://www.textteaser.com/api", {"Accept": "application/json"}, {"token": apikey, "text": article.cleaned_text, "title":  article.title})
-    print response.body['sentences']
+    response = unirest.post("http://x.textteaser.com/api", {}, {"token": apikey, "text": article.cleaned_text, "title":  article.title})
+    print response.body
     return json.dumps(response.body['sentences'])
 
 
