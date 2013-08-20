@@ -1,1 +1,14 @@
-{"license": "", "description": "Firefox addon to TLDRify article with textteaser API\n", "contributors": [], "author": "vayan", "url": "", "dependencies": ["api-utils", "addon-kit"], "version": "initial.rev67", "lib": "lib", "fullName": "TLDRify", "main": "main", "id": "jid0-wQx2aA6rDqEZB5OzY6JjB12AmTI", "name": "tldrify"}
+{
+	"license": "", 
+	"description": "Firefox addon to TLDRify article with textteaser API\n", 
+	"contributors": [], 
+	"author": "vayan", 
+	"url": "", 
+	"dependencies": ["api-utils", "addon-kit"], 
+	"version": "0.8", 
+	"lib": "lib", 
+	"fullName": "TLDRify", 
+	"main": "main", 
+	"id": "jid0-wQx2aA6rDqEZB5OzY6JjB12AmTI", 
+	"name": "tldrify"
+}
